@@ -11,7 +11,7 @@ from time import sleep
 
 #sets the haar-like features to be used. this file,
 #along with others, is downloaded with OpenCV.  For
-#best results, copy at minimum "Haarcascade_face_frontal_default.xml"
+#best results, copy at minimum "Haarcascade_facefrontal_default.xml"
 #into the directory with the program in it, and rename it.
 #here it is renamed "faces.xml"
 face_cascade = cv2.CascadeClassifier('faces.xml')
